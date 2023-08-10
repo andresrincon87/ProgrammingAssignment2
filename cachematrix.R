@@ -16,6 +16,7 @@ makeCacheMatrix <- function(x = matrix(sample(1:100,9),3,3)) {
 ##
 ## Same here, changed "mean" to "solve" and "m" to "s"
 cacheSolve <- function(x, ...) {
+<<<<<<< HEAD
         s <- x$getsolve()
         if(!is.null(s)) {
                 message("getting inversed matrix")
@@ -26,3 +27,8 @@ cacheSolve <- function(x, ...) {
         x$setsolve(s)
         s
 }
+=======
+        ## Return a matrix that is the inverse of 'x'
+}
+##pruebasdfasf
+>>>>>>> eaa10ba564be767b84ec826c7f2a0143dc58c364
